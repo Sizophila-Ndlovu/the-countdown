@@ -1,7 +1,13 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    background-image: url('./assets/background.jpg');
+    background-size: contain;
 }
 
-
+h1 {
+    text-align: center;
+    color: rgb(62, 21, 21);
+    margin-top: 50px;
+}
 

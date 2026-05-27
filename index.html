@@ -6,7 +6,8 @@
 </head>
 
 <body>
-
+<h1>Yasho!</h1>
+<button id="btn">PRESA</button>
 <div class="howlongagogo-widget"
      data-date="2026-04-29"
      data-time="04:29:00"
@@ -33,6 +34,21 @@
 
 
 <script async src="https://howlongagogo.com/js/widget.v3.js"></script>
+<script>
+    const btn = document.getElementById("btn");
+    const title = document.querySelector("h1");
+
+btn.addEventListener("click", function(){
+    if (title.innerHTML === "Yeboo!"){
+        title.innerHTML = "Yasho!";
+    } else {
+        title.innerHTML = "Yeboo!";
+    }
+});
+    
+   
+</script>
+
 
 </body>
 </html>
